@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurante Amigos Do Phablo</title>
+    <style>
+    
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+::-webkit-input-placeholder {
+  color: #56585b;
+}
+
+::-moz-placeholder {
+  color: #56585b;
+}
+
+:-moz-placeholder {
+  color: #56585b;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background: url(imgs/81.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #0a0a0b;
+  overflow: hidden;
+}
+
+ul, nav{
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #c78933;
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 1.5rem;
+}
+
+h3 {
+  background-color: #f88b24;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 1.5rem;
+}
+
+i {
+  font-size: 1.3rem;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px 100px 0;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li{
+  margin: 0 15px;
+}
+
+header nav li:first-child{
+  margin-left: 0; 
+}
+
+header nav li:last-child{
+  margin-right: 0;  
+}
+
+a.topo {
+  color: #fff;
+  padding: 10px;
+
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a.topo:hover {
+  background: #c78933;
+  border: 1px solid #c78933;
+  color: #fff;
+}
+
+.cover  {
+  border-radius: 15px;
+		position: absolute;
+		top:  45%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		padding: 10px;
+	}
+.tabela{
+		border-radius: 15px;
+		position: absolute;
+		top:  50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		padding: 10px;
+	}
+
+.flex-form input[type="submit"] {
+  background: #c78933;
+  border: 1px solid #c78933;
+  color: #fff;
+  padding: 0 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.flex-form input[type="submit"]:hover {
+  background: #c78933;
+  border: 1px solid #c78933;
+}
+
+.flex-form {
+  display: -webkit-box;
+  display: flex;
+  z-index: 10;
+  position: relative;
+  width: 500px;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.flex-form > * {
+  border: 0;
+  padding: 0 0 0 10px;
+  background: #fff;
+  line-height: 50px;
+  font-size: 1rem;
+  border-radius: 0;
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+
+#madeby {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 25px 100px;
+  color: #fff;
+}
+
+
+  .flex-form {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+
+  input[type="search"] {
+    flex-basis: 0;
+  }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+
+  <header>
+    <h2><a href="index.html"><i class="ion-plane"></i> Restaurante Amigos Do Phablo</a></h2>
+    <nav>
+      <ul>
+        <li>
+          <a class="topo" href="index.html" title="Home">Home</a>
+        </li>
+        <li>
+          <a class="topo" href="menu.html" title="Menu">Menu</a>
+        </li>
+        <li>
+          <a class="topo" href="sobre.html" title="Sobre">Sobre</a>
+        </li>
+        <li>
+          <a class="topo" href="votar.php" title="Sobre">Votação</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="cover">
+    <h1>Bem vindo</h1>
+  </div>
+  <div class="tabela">
+    <h3>Melhor Restaurante de Itauçu e Região</h3>
+  </div>
+
+</div>
+</body>
+</html>
